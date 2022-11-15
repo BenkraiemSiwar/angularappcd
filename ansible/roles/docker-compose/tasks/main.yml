@@ -1,0 +1,6 @@
+---
+# tasks file for docker-compose
+- name: test docker-compose
+  docker_compose:
+   project_src: /var/lib/jenkins/workspace/myappcd/monotoring/
+   state: present
