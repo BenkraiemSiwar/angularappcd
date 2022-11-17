@@ -12,5 +12,5 @@ scrape_configs:
     scrape_interval: 5s
     static_configs:
     - targets:
-      - 172.17.0.1:9323
+      - 192.168.244.172:9323
 
